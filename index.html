@@ -1,29 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,600" rel="stylesheet" />
-    <title>H Roopavani &amp; Associates</title>
-    <meta property="og:title" content="H Roopavani &amp; Associates" />
-    <meta name="description" content="H Roopavani &amp; Associates - The future is here... Behold!" />
-    <meta property="og:description" content="H Roopavani &amp; Associates - The future is here... Behold!" />
-    <meta property="og:image" content="https://i.imgur.com/BWJgSHP.png" />
-    <link rel="shortcut icon" href="https://i.imgur.com/BWJgSHP.png" type="image/png" />
-    <style>
-      body {background-color: #21303d; color: #fff;}
-      img {width: 150px; max-width: 90%; display: block; margin: 10px auto 0;}
-      img + img {width: 750px; max-width: 90%; display: block; margin: 75px auto 50px;}
-      h1, p {font-family: 'Rajdhani', sans-serif; margin: 0 0 10px; text-align: center;}
-      p.copyright {margin: 0; font-size: 10pt; color: #fff;}
-      p.copyright a {text-decoration: none; color: #f90; font-weight: 600;}
-    </style>
-  </head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <body>
-    <img src="https://i.imgur.com/hnzkt4G.png?https://i.imgur.com/2s0LDYp.png" alt="Logo" />
-    <img src="https://i.imgur.com/byHQn9h.png" alt="Under Construction" />
-    <h1>Sorry, we're doing some work on the site</h1>
-    <p>Thank you for being patient. We are doing some work on the site and will be back shortly.</p>
-    <p class="copyright">Copyright &copy; All Rights Reserved. Website Designed &amp; Developed by <a href="https://praveen.science/">Praveen Kumar</a>.</p>
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css" />
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css" />
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css" />
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css" />
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css" />
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" />
+
+    <!-- Map -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css" />
+
+    <title>H Roopavani &amp; Associates</title>
+  </head>
+  <body class="pt-10 bg-light">
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border-bottom">
+      <!-- Brand -->
+      <a class="navbar-brand" href="./index.html">
+        <img src="https://i.imgur.com/iigFWCs.png" class="navbar-brand-img" alt="..." />
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fe fe-x"></i>
+        </button>
+
+        <!-- Button -->
+        <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="#info" data-toggle="smooth-scroll">
+          Contact Us
+        </a>
+      </div>
+    </nav>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url(assets/img/covers/cover-5.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 text-center">
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Welcome to<br />H Roopavani &amp; Associates
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-white-75 mb-0">
+              We are best in GST, ROC, Accounting, Certification,<br />Audit, TDS, Tax Consulting, DSC (C - 2, 3).
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- INFO
+    ================================================== -->
+    <section class="py-7 py-md-9 border-bottom border-gray-300" id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <!-- Button -->
+            <a href="#info" class="btn btn-white btn-rounded-circle shadow mt-n11 mt-md-n13" data-toggle="smooth-scroll">
+              <i class="fe fe-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-4 text-center border-right border-gray-300">
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Meet us
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4 text-primary">
+                Sindhu Nagar, Avadi, Chennai
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center border-right border-gray-300">
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Call anytime
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4">
+                +91 9150 124 264
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Email us
+            </h6>
+
+            <!-- Link -->
+            <a href="#!" class="h4">
+              info@roopah.com
+            </a>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+    </section>
+
+    <!-- FORM
+    ================================================== -->
+    <section class="pt-8 pt-md-11 pb-8 pb-md-14">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Let us hear from you directly!
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              We always want to hear from you! Let us know how we can best help you and we'll do our very best.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.6842213081113!2d80.07995891591763!3d13.11918009075922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52899fe3fe42cf%3A0x731cc01232c0a2dd!2sH+ROOPAVANI+%26+ASSOCIATES!5e0!3m2!1sen!2suk!4v1563456230147!5m2!1sen!2suk" frameborder="0" style="border: 0; width: 100%; height: 450px;" allowfullscreen></iframe>
+          </div>
+          <div class="col-12 col-md-6">
+            <!-- Form -->
+            <form action="https://formspree.io/info@roopah.com" method="post">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    <!-- Label -->
+                    <label for="contactName">
+                      Full name
+                    </label>
+
+                    <!-- Input -->
+                    <input type="text" class="form-control" id="contactName" placeholder="Full name" name="name" />
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    <!-- Label -->
+                    <label for="contactEmail">
+                      Email
+                    </label>
+
+                    <!-- Input -->
+                    <input type="email" class="form-control" id="contactEmail" placeholder="hello@domain.com" name="mail" />
+                  </div>
+                </div>
+              </div>
+              <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+                    <!-- Label -->
+                    <label for="contactMessage">
+                      What can we help you with?
+                    </label>
+
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!" name="message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift">
+                    Send message
+                  </button>
+                </div>
+              </div>
+              <!-- / .row -->
+            </form>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-muted">Copyright &copy; 2019 <span class="text-gray-400">H Roopavani &amp; Associates</span>. All Rights Reserved.<br />Website handcrafted with &#x2764;&#xFE0F; by <a href="https://praveen.science/" class="text-gray-400">Praveen Kumar Purushothaman</a>.</p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Map -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
   </body>
 </html>
